@@ -1,4 +1,18 @@
 # AiLawMiniCourseHW
+SUPREME COURT TOPIC MODELING
+
+> Step 1: This step imports the plug ins necessary to manipulate the data. Then it downloads the data to be analyzed to the program. It then redifines the data in to strings that allow teh cases to be more easily categorized by the program. Finally, it moves all of the new data into a easily manipulated data set known as a pickle. 
+
+> Step 2: This step begins Manipulating the Data with teh tensorflow program in order for the data to be categorized. 
+
+> Step 3: This step then takes the previously manipulated data, and begins imposing perameters on the data sets in order to output the data into a readable format. It does this by identifying which justices decided which decision. 
+
+> Step 4: This step takes steps 2 and 3 and begins calculating which perameters are important in the data set. It uses a graphical data model in order to output the data into a readable graph which is done in step 5. 
+
+> Step 5: This step graphically organizes the data for output. It uses the parameters from the previous program inputs and then uses the perameteres to output the data using the tensorflow program. 
+
+Word2Vec Analysis
+
 > Step 1: This step downloads the data necessary to run the tensorflow program through the data set. In this case the data set is an explanation of data compression programs. In this step the python program first identifies that there is data to be downloaded. It then places the files in a local path so the machine can find the data after it is downloaded. The program then reports the statistics of that data set to the machine. The program then reads the data into strings to make it more usable to the program. When doing this, it also compresses the data in order to run the program more efficiently. 
 
 > Step 2: This step then takes the string data and replaces rare words with tokens, here defined as UNK, in order to make the program run more efficiently. This allows the machine to then create a dictionary of the words that are most common. This allows the machine to calculate how frequently words are most used. It then counts the words in each string and returns the count to the data set that is dictated. The program then deletes the vocabulary, which is the read out data file, in order to reduce space on the machine. The program then prints out counts of the most common words, as well as, the words that were identified. 
